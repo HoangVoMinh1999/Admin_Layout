@@ -13,6 +13,7 @@ var changeRouter=require('./routes/change_info');
 var productRouter=require('./routes/product');
 var billRouter=require('./routes/bill');
 var chartRouter=require('./routes/chart');
+var topRouter=require('./routes/top');
 
 var app = express();
 
@@ -37,6 +38,7 @@ app.use('/shop',shopRouter);
 app.use('/product',productRouter);
 app.use('/bill',billRouter);
 app.use('/chart',chartRouter);
+app.use('/top',topRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

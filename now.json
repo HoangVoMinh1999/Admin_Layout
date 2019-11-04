@@ -14,6 +14,7 @@
    { "src": "/chart", "dest": "/" },
    { "src": "/customer", "dest": "/" },
    { "src": "/product", "dest": "/" },
-   { "src": "/shop", "dest": "/" }
+   { "src": "/shop", "dest": "/" },
+   { "src": "/top", "dest": "/" }
     ]
 }
